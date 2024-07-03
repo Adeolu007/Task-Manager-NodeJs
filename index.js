@@ -23,7 +23,7 @@ app.get('/', (req, res) => {
 }) 
 
 //change the mongoose property
-mongoose.connect("mongodb+srv://Adeolu007:Treasurer15@backenddb.kdpqjq2.mongodb.net/Node-API?retryWrites=true&w=majority&appName=BackendDB")
+mongoose.connect("mongodb+srv://odunuyiadeolu:KujeitwDqHZaR3Dz@cluster0.ofdpuiz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
  
 .then(()=>{
   console.log("connected to the DB");
